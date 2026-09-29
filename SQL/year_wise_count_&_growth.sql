@@ -1,3 +1,5 @@
+-- Year wise order count and growth compared to last year
+
 SELECT 
 YEAR(order_purchase_timestamp) AS order_year,
 COUNT(DISTINCT order_id) AS order_count,

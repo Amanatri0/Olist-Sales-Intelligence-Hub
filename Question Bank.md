@@ -4,12 +4,17 @@ How has order volume changed over time?
 How does monthly order volume change over the available period?
  --> Monthly order volume generally increased throughout 2017, with fluctuations and a peak of 7,544 orders in November.
      Order volume remained relatively high during the first eight months of 2018, but September and October cannot be interpreted as full-month trends because the dataset ends partway through October 2018.
+
 Which months/periods generated the highest order activity?
+
 ---> November 2017 has the highest order count with 7,544 orders on single month
+
 Which product categories contribute the most to order value?
 ---> Based on the analysis, health_beauty has the highest summed item value among the top categories, followed by
      watches_gifts and bed_bath_table
+
 Which states generate the most customers and orders?
+
 Which sellers contribute the most order volume?
 
 ## 2. Sales / Commercial
