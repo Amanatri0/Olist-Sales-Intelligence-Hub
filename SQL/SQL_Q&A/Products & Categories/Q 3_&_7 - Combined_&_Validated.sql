@@ -19,7 +19,7 @@ WHERE o.order_purchase_timestamp >= '2017-01-01'
     AND o.order_purchase_timestamp < '2018-09-01'
     AND pt.product_category_name_english IS NOT NULL
 GROUP BY category
-ORDER BY avg_item_value DESC;
+ORDER BY order_count DESC;
 
 
 -- Question 3 validation for unmapped orders
@@ -65,16 +65,12 @@ SELECT
     ROUND(SUM(oi.price), 2) AS unmapped_item_value,
     ROUND(SUM(oi.freight_value), 2) AS unmapped_freight_value
 FROM data_analytics.order_items AS oi
-
 INNER JOIN data_analytics.orders AS o
     ON oi.order_id = o.order_id
-
 INNER JOIN data_analytics.products AS p
     ON oi.product_id = p.product_id
-
 LEFT JOIN data_analytics.product_translation AS pt
     ON p.product_category_name = pt.product_category_name
-
 WHERE o.order_purchase_timestamp >= '2017-01-01'
   AND o.order_purchase_timestamp < '2018-09-01'
   AND pt.product_category_name_english IS NULL;
