@@ -5,14 +5,12 @@
        width="100%">
 </p>
 
-<h1 align="center">Olist E-Commerce Analytics</h1>
+# Olist E-Commerce Analytics
 
 <p align="center">
   End-to-end business analysis using MySQL, Python, SQL, and Looker Studio.
 </p>
 
-
-**An end-to-end e-commerce analytics project using SQL, Python, and Looker Studio.**
 
 This project analyzes the Brazilian Olist e-commerce marketplace to understand sales performance, product and category demand, merchandise value, customer satisfaction, and delivery operations. It combines SQL-based business analysis, data-quality validation, Python-assisted data ingestion, and interactive business intelligence dashboards.
 
@@ -72,6 +70,8 @@ The project investigates questions such as:
 - What operational patterns can be identified from order and delivery data?
 
 The questions are organized by business domain in the project's question bank. Their completion status is tracked separately from the overall project status.
+
+You can see the complete question bank here [Questions](/Question%20Bank.md)
 
 ---
 
