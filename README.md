@@ -1,4 +1,16 @@
-# Olist E-Commerce Analytics
+
+<p align="center">
+  <img src="/assetes/o-list project banner.png"
+       alt="Olist E-Commerce Analytics — End-to-End Business Intelligence Project"
+       width="100%">
+</p>
+
+<h1 align="center">Olist E-Commerce Analytics</h1>
+
+<p align="center">
+  End-to-end business analysis using MySQL, Python, SQL, and Looker Studio.
+</p>
+
 
 **An end-to-end e-commerce analytics project using SQL, Python, and Looker Studio.**
 
@@ -200,7 +212,7 @@ Product rankings use the number of distinct orders containing each product. This
 The analysis ranks products within their translated product categories using SQL window functions.
 
 ---
-
+<!-- 
 ## SQL Analysis
 
 SQL files are organized by business domain so that each query can be inspected independently.
@@ -223,7 +235,7 @@ The product and category analysis includes:
 - **Q30:** Categories with high merchandise value per order and below-median satisfaction.
 - **Q31:** Categories with high order volume but below-median merchandise value per order.
 
-The full question register and the individual SQL files provide the detailed definitions and implementation for each question.
+The full question register and the individual SQL files provide the detailed definitions and implementation for each question. -->
 
 ---
 <!-- 
