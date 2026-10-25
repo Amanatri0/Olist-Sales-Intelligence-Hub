@@ -117,7 +117,6 @@ The project follows these stages:
 
 ## Dashboard Gallery
 
-The dashboard screenshots will be stored in `assets/dashboards/` and embedded here as the repository develops.
 
 ### 1. Overview Dashboard
 
@@ -125,7 +124,6 @@ The dashboard screenshots will be stored in `assets/dashboards/` and embedded he
 
 ![Overview Dashboard](/assetes/dashboards/overview.jpg)
 
-*Dashboard screenshot to be added.*
 
 ### 2. Sales & Revenue Intelligence
 
@@ -133,7 +131,6 @@ The dashboard screenshots will be stored in `assets/dashboards/` and embedded he
 
 ![Sales and Revenue Dashboard](/assetes/dashboards/sales&Revenue.jpg)
 
-*Dashboard screenshot to be added.*
 
 ### 3. Product & Category Intelligence
 
@@ -141,7 +138,6 @@ The dashboard screenshots will be stored in `assets/dashboards/` and embedded he
 
 ![Product and Category Intelligence Dashboard](/assetes/dashboards/product&Categories.jpg)
 
-*Dashboard screenshot to be added.*
 
 ### 4. Category Performance & Satisfaction
 
@@ -149,7 +145,6 @@ The dashboard screenshots will be stored in `assets/dashboards/` and embedded he
 
 ![Category Performance and Satisfaction Dashboard](/assetes/dashboards/customerSatisfaction.jpg)
 
-*Dashboard screenshot to be added.*
 
 ---
 
@@ -231,7 +226,7 @@ The product and category analysis includes:
 The full question register and the individual SQL files provide the detailed definitions and implementation for each question.
 
 ---
-
+<!-- 
 ## Data Quality and Methodology
 
 Data quality is treated as part of the analysis, not as a separate cosmetic step.
@@ -262,7 +257,7 @@ High and low classifications use the median across the analyzed categories as a 
 
 The review table was investigated for repeated review identifiers and multiple review records associated with an order. The category satisfaction analysis aggregates review scores at the order level before associating reviewed orders with categories, avoiding a direct multiplication of review rows by individual order-item rows.
 
-Review counts and scores must be interpreted with the relevant sample size in mind.
+Review counts and scores must be interpreted with the relevant sample size in mind. -->
 
 ### Reporting window
 
@@ -325,7 +320,7 @@ The following workflow describes the intended reproduction process. Exact setup 
 
 ### Steps
 
-1. Download the Olist dataset from the linked Kaggle source.
+1. Download the Olist dataset from the linked [Kaggle source](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce).
 2. Place the CSV files in the documented local data directory.
 3. Configure the MySQL connection using local credentials or environment variables. Do not commit passwords.
 4. Create the database and tables using the setup scripts.
